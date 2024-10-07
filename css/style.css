@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section h2 {
+    font-family: "Bungee", cursive;
+      
+}
+
+body, 
+input, 
+textarea, p {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+header h1 {
+    font-weight: bold; /*normal*/
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logo img {
+    height: 33px;
+}
+
+.brand-logo li {
+    display: inline;
+    margin-right: 12px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-img {
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bungee", cursive;
+    font-size: 18.5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 18px;
+}
+
+input, 
+form textarea,
+form button {
+    width: 450px;
+    height: 50px;
+    font-size: 110%;
+    padding: 10px;
+}
+
+form textarea {
+    height: 200px;
+    font-size: 140%;
+    resize: none;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: "Bungee", cursive;
+    cursor: pointer;
+    border-style: none;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, 
+textarea:focus {
+    outline-color: #182c61;
+}
+
+.brand-follow a {
+    text-decoration: none;
+}
+
+
+.brand-follow img{
+    height: 33px;
+    margin-top: 18px;
+}
+
+.brand-follow li {
+    display: inline;
+    margin-right: 12px;
+}
+
+p {
+    margin-top: 18px;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
